@@ -25,5 +25,11 @@ public class OperationController {
 	{
 		return service.Add();
 	}
+	
+	@GetMapping("/getMultiply")
+	public int multiply()
+	{
+		return 10*10;
+	}
 }
 
