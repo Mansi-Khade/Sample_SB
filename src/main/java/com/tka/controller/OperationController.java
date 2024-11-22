@@ -19,4 +19,11 @@ public class OperationController {
 	{
 		return service.getList() ;
 	}
+
+	@GetMapping("/getAdd")
+	public int Add()
+	{
+		return service.Add();
+	}
 }
+

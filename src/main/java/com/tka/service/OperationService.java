@@ -16,4 +16,8 @@ public class OperationService {
 		return dao.getList();
 	}
 
+	public int Add() {
+		return dao.Add();
+	}
+
 }
